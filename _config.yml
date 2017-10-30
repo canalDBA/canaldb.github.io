@@ -14,7 +14,7 @@ permalink:           pretty
 title:               CanalDBA
 tagline:             '  Cero humo, a puro commit.'
 description:         'Comunidad de Data Nerds del Río de la Plata'
-url:                 http://canaldba.com
+url:                 http://canaldba.com/
 baseurl:             /
 paginate:            7
 logo:                head.png
