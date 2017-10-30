@@ -11,4 +11,4 @@ Eso. Stay tuned.
 
 ## Under construction
 
-Estamos algo desorganizados. 
+¡Estamos algo desorganizados todavía!. 

@@ -5,6 +5,7 @@ permalink: /categories/
 tags: [Categories]
 description: "An archive of posts sorted by categories."
 ---
+<!--
 <ul class="tag-box inline">
 {% assign tags_list = site.categories %}
 {% if tags_list.first[0] == null %}
@@ -18,6 +19,8 @@ description: "An archive of posts sorted by categories."
 {% endif %}
 {% assign tags_list = nil %}
 </ul>
+-->
+
 {% for tag in site.categories %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
 <ul class="post-list">

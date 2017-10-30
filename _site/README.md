@@ -4,6 +4,12 @@ Este sitio se basó en el template _Naringu_. Estaba algo harcodeado así que le
 
 ## Introducción
 
+```
+jekyll serve --watch --config _config.dev.yml
+```
+
+
+
 ## TODO
 
 ## Slack
