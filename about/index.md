@@ -4,7 +4,9 @@ title: About
 layout: page
 ---
 
-  <img alt="" src="/images/biglogo.jpg" width="300" height="200" />
+
+
+![CanalDBA](https://github.com/canalDBA/canaldba.github.io/blob/master/images/biglogo.jpg)
 
 ¡Hey! Si llegaste acá es porque querés saber de nosotros, el __CanalDBA__, una comunidad de Data Nerds del Río de la Plata
 (mayormente). Nuestro propósito es interconectarnos fuera del ámbito de las compañias donde trabajamos. Si, somos una especie
