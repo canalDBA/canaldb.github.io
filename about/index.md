@@ -1,16 +1,17 @@
 ---
 title: About
-#author: ariestiyansyah
+author: CanalDBA
 layout: page
 ---
 
-
-
-![CanalDBA](https://github.com/canalDBA/canaldba.github.io/blob/master/images/biglogo.jpg)
+<img alt="" src="{{ site.url }}/images/biglogo.jpg" width="300" height="200" />
 
 ¡Hey! Si llegaste acá es porque querés saber de nosotros, el __CanalDBA__, una comunidad de Data Nerds del Río de la Plata
 (mayormente). Nuestro propósito es interconectarnos fuera del ámbito de las compañias donde trabajamos. Si, somos una especie
 de Sindicato Intransigente pero sin plata.
+
+
+
 
 Entre nuestras filas, tenemos gente que trabaja en compañias como Percona, Pythian, Oracle, Teradata, Ongres, Ayres.io,
 instituciones gubernamentales, etc (iremos agregando a medida que se vayan sumando).

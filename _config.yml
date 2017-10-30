@@ -15,7 +15,7 @@ title:               CanalDBA
 tagline:             '  Cero humo, a puro commit.'
 description:         'Comunidad de Data Nerds del Río de la Plata'
 url:                 http://canaldba.com/
-baseurl:             /
+baseurl:             http://canaldba.com/
 paginate:            7
 logo:                head.png
 biglogo:             biglogo.jpg
@@ -39,4 +39,4 @@ disqus:             canaldba
 theme:
   creator:			Rizky Ariestiyansyah
   codename:			Naringu
-  link:             https://github.com/ariestiyansyah/naringu
+  link:          https://github.com/ariestiyansyah/naringu
