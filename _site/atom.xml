@@ -4,7 +4,7 @@
  <title>CanalDBA</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-30T20:56:57-03:00</updated>
+ <updated>2017-10-31T00:01:18-03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>CanalDBA</name>
@@ -12,20 +12,8 @@
  </author>
 
  
- <entry>
-   <title>¡Acá empezamos!</title>
-   <link href="http://localhost:4000/general/2017/10/30/el-primer-post/"/>
-   <updated>2017-10-30T00:00:00-03:00</updated>
-   <id>http://localhost:4000/general/2017/10/30/el-primer-post</id>
-   <content type="html">&lt;h2 id=&quot;primer-blog-post-para-que-no-esté-vacio&quot;&gt;Primer blog post para que no esté vacio&lt;/h2&gt;
 
-&lt;p&gt;Eso. Stay tuned.&lt;/p&gt;
 
-&lt;h2 id=&quot;under-construction&quot;&gt;Under construction&lt;/h2&gt;
-
-&lt;p&gt;¡Estamos algo desorganizados todavía!.&lt;/p&gt;
-</content>
- </entry>
- 
+  
 
 </feed>

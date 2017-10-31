@@ -539,8 +539,27 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
 }
 
+/* evento or page title */
+.page-title,
+.evento-title,
+.evento-title a {
+  color: #25BFBF;
+}
+.page-title,
+.evento-title {
+  margin-top: 0;
+}
+
+
 /* Meta data line below post title */
 .post-date {
+  display: block;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+.evento-date {
   display: block;
   margin-top: -1.5rem;
   margin-bottom: 1rem;

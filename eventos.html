@@ -8,12 +8,12 @@ description: "Eventos."
 
 {% for tag in site.eventos %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-<ul class="post-list">
+<ul class="evento-list">
 {% assign pages_list = tag[1] %}
-{% for post in pages_list %}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-<li><a href="{{ post.url }}">{{ post.title }}<span class="entry-date"> - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></a></li>
+{% for evento in pages_list %}
+{% if evento.title != null %}
+{% if group == null or group == evento.group %}
+<li><a href="{{ evento.url }}">{{ evento.title }}<span class="entry-date"> - <time datetime="{{ evento.date | date_to_xmlschema }}" itemprop="datePublished">{{ evento.date | date: "%b %d, %Y" }}</time></a></li>
 {% endif %}
 {% endif %}
 {% endfor %}
