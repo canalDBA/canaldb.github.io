@@ -1,8 +1,9 @@
 ---
-layout: events
+layout: post
 title: "Percona Pythian Event" 
-eventos_tipo:
-- externos
+evento: true
+categories:
+- externo
 ---
 
 ## Descripción

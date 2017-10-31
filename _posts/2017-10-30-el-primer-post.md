@@ -1,9 +1,9 @@
 ---
 layout: post
 title: ¡Acá empezamos!
+evento: false
 categories:
 - general
-date: "2017-11-16"
 ---
 
 ## Primer blog post para que no esté vacio
