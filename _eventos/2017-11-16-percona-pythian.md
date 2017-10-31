@@ -1,7 +1,7 @@
 ---
 layout: events
-title: "Percona-Pythian Event" 
-eventos:
+title: "Percona Pythian Event" 
+eventos_tipo:
 - externos
 ---
 

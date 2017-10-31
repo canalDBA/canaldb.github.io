@@ -6,7 +6,7 @@ tags: [Eventos]
 description: "Eventos."
 ---
 
-{% for tag in site.eventos %}
+{% for tag in site.eventos_tipo %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
 <ul class="evento-list">
 {% assign pages_list = tag[1] %}
