@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 
 # Gems (for Jekyll 3.0)
-plugins_dir: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 #
@@ -15,7 +15,7 @@ title:               CanalDBA
 tagline:             '  Cero humo, a puro commit.'
 description:         'Comunidad de Data Nerds del Río de la Plata'
 url:                 http://canaldba.com/
-baseurl:             /
+baseurl:             http://canaldba.com/
 paginate:            7
 logo:                head.png
 biglogo:             biglogo.jpg
@@ -35,8 +35,8 @@ twitter:			http://twitter.com/canaldba
 disqus:             canaldba
 
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
-theme: 
-#  Theme: value of 'theme' in config should be String to use gem-based themes, but got Hash
-#  creator:			Rizky Ariestiyansyah
-#  codename:			Naringu
-#  link:          https://github.com/ariestiyansyah/naringu
+# Thanks Rizky!
+theme:
+  creator:			Rizky Ariestiyansyah
+  codename:			Naringu
+  link:          https://github.com/ariestiyansyah/naringu
