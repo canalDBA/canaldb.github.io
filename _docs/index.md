@@ -4,7 +4,9 @@ author: CanalDBA
 layout: page
 ---
 
-## asd
+Aqui encontraras los recursos necesarios para adentrarte en las tecnologias
+que esta comunidad maneja (WIP).
+
 
 {% for item in site.docs %}
   <h2>{{ item.title }}</h2>
