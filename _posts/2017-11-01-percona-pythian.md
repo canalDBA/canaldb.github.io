@@ -5,6 +5,6 @@ categories:
 - evento
 ---
 
-## Descripción
+## Descripcion
 
-Detalles a confirmar.
+Noviembre 16, 2017

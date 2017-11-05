@@ -1,15 +1,15 @@
 ---
 layout: post
-title: ¡Acá empezamos!
+title: ¡Aca empezamos!
 categories:
 - intro
 evento: false
 ---
 
-## Primer blog post para que no esté vacio
+## Primer blog post para que no este vacio
 
 Eso. Stay tuned.
 
 ## Under construction
 
-¡Estamos algo desorganizados todavía!. 
+¡Estamos algo desorganizados todavia!. 

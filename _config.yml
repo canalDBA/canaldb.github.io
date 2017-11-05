@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 
 # Gems (for Jekyll 3.0)
-plugins_dir: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 #
@@ -12,8 +12,8 @@ permalink:           pretty
 
 # Setup
 title:               CanalDBA
-tagline:             '  Cero humo, a puro commit.'
-description:         'Comunidad de Data Nerds del Río de la Plata'
+tagline:             ' A puro commit.'
+description:         'Comunidad de Data Nerds del Rio de la Plata'
 url:                 http://canaldba.com/
 baseurl:             /
 paginate:            7
@@ -48,4 +48,4 @@ assets:
 collections:
   docs:
     output: true
-    permalink: /docs/:name
+    permalink: /docs/:path
