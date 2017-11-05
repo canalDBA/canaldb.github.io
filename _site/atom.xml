@@ -4,7 +4,7 @@
  <title>CanalDBA</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-11-04T02:05:41-03:00</updated>
+ <updated>2017-11-05T03:28:33-03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>CanalDBA</name>
@@ -13,10 +13,32 @@
 
  
  <entry>
+   <title>Percona Pythian Event</title>
+   <link href="http://localhost:4000/evento/2017/11/01/percona-pythian/"/>
+   <updated>2017-11-01T00:00:00-03:00</updated>
+   <id>http://localhost:4000/evento/2017/11/01/percona-pythian</id>
+   <content type="html">&lt;h2 id=&quot;descripción&quot;&gt;Descripción&lt;/h2&gt;
+
+&lt;p&gt;Detalles a confirmar.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>¡Acá empezamos!</title>
-   <link href="http://localhost:4000/general/2017/10/30/el-primer-post/"/>
+   <link href="http://localhost:4000/extra/2017/10/30/el-segundo-post/"/>
    <updated>2017-10-30T00:00:00-03:00</updated>
-   <id>http://localhost:4000/general/2017/10/30/el-primer-post</id>
+   <id>http://localhost:4000/extra/2017/10/30/el-segundo-post</id>
+   <content type="html">&lt;h2 id=&quot;test&quot;&gt;test&lt;/h2&gt;
+
+&lt;p&gt;test1&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>¡Acá empezamos!</title>
+   <link href="http://localhost:4000/intro/2017/10/30/el-primer-post/"/>
+   <updated>2017-10-30T00:00:00-03:00</updated>
+   <id>http://localhost:4000/intro/2017/10/30/el-primer-post</id>
    <content type="html">&lt;h2 id=&quot;primer-blog-post-para-que-no-esté-vacio&quot;&gt;Primer blog post para que no esté vacio&lt;/h2&gt;
 
 &lt;p&gt;Eso. Stay tuned.&lt;/p&gt;

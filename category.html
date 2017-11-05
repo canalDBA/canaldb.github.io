@@ -5,6 +5,7 @@ permalink: /categories/
 tags: [Categories]
 description: "An archive of posts sorted by categories."
 ---
+
 <!--
 <ul class="tag-box inline">
 {% assign tags_list = site.categories %}
@@ -21,12 +22,14 @@ description: "An archive of posts sorted by categories."
 </ul>
 -->
 
+
 {% for tag in site.categories %}
+{% if tag[0] != 'evento' or tag[0] != 'meetup' %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
 <ul class="post-list">
 {% assign pages_list = tag[1] %}
 {% for post in pages_list %}
-{% if post.title != null  %}
+{% if post.title != null %}
 {% if group == null or group == post.group %}
 <li><a href="{{ post.url }}">{{ post.title }}<span class="entry-date"> - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></a></li>
 {% endif %}
@@ -35,5 +38,5 @@ description: "An archive of posts sorted by categories."
 {% assign pages_list = nil %}
 {% assign group = nil %}
 </ul>
-
+{% endif %}
 {% endfor %}

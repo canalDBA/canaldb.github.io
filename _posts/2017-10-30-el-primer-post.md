@@ -1,9 +1,9 @@
 ---
 layout: post
 title: ¡Acá empezamos!
-evento: false
 categories:
-- general
+- intro
+evento: false
 ---
 
 ## Primer blog post para que no esté vacio

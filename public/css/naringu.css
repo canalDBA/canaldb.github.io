@@ -3,6 +3,22 @@
  * https://github.com/ariestiyansyah/naringu.
  */
 
+ 
+@font-face {
+    font-family: "Perfect DOS VGA 437";
+    src: url('fonts/VGA437.ttf');
+    src: url('fonts/VGA437.ttf') format('truetype');
+}
+
+
+/*
+@mixin embed-font($icomoon){
+  @icomoon{
+  font-family: $icomoon;
+  src: url(font_path('fonts/icomoon.ttf"') format('truetype')
+}
+};
+*/
 
 /*
  * Contents
@@ -33,11 +49,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
 }
 
 html {
-  font-family: Terminal;
+  font-family: "Perfect DOS VGA 437";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -56,7 +72,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #6DD;
+  color: rgb(102, 109, 109);
   text-decoration: none;
 }
 a strong {
@@ -70,9 +86,9 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Terminal;
+  font-family: "Perfect DOS VGA 437";
   font-weight: 400;
-  color: #25BFBF;
+  color: rgb(171, 182, 182);
   letter-spacing: -.025rem;
 } 
 
@@ -99,7 +115,7 @@ p {
 }
 
 strong {
-  color: #1BFFFF;
+  color: rgb(171, 182, 182);
 }
 
 
@@ -121,19 +137,19 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #6DD;
-  border-bottom: 1px solid #6DD;
+  border-top: 1px solid rgb(102, 109, 109);
+  border-bottom: 1px solid rgb(102, 109, 109);
 }
 
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #6DD;
+  color: rgb(102, 109, 109);
   text-transform: uppercase;
 }
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #6DD;
+  border-bottom: 1px dotted rgb(102, 109, 109);
 }
 
 /* 
@@ -143,32 +159,35 @@ abbr[title] {
 
 code,
 pre {
-  font-family: "Terminal";
+  font-family: "Perfect DOS VGA 437";
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  font-size: 120%;
   color: #000;
-  background-color: #0CDADA;;
+  background-color: rgb(171, 182, 182);;
   border-radius: 3px;
 }
 pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
+  padding: .8rem;
+  font-size: 1.2rem;
   white-space: pre;
   white-space: pre-wrap;
+  line-height: 1;
+  
+  /*  
   word-break: break-all;
   word-wrap: break-word;
+  */
   background-color: #000;
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
 }
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 150%;
   color: inherit;
   background-color: transparent;
 }
@@ -177,7 +196,7 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
-  background-color: #6DD;
+  background-color: rgb(102, 109, 109);
 }
 .highlight pre {
   margin-bottom: 0;
@@ -186,7 +205,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Terminal", monospace !important;
+  font-family: "Perfect DOS VGA 437" !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -196,7 +215,7 @@ pre code {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: .8rem !important;
+  font-size: 1rem !important;
   line-height: 1.4;
 }
 .gist code {
@@ -237,13 +256,13 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
@@ -297,7 +316,7 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #6DD;
+  border-bottom: 1px solid rgb(102, 109, 109);
 }
 .masthead-title {
   margin-top: 0;
@@ -308,7 +327,7 @@ tbody tr:nth-child(odd) th {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 75%;
+  font-size: 90%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -347,24 +366,24 @@ tbody tr:nth-child(odd) th {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: Terminal;
-  font-size: .875rem; /* 15px */
+  font-family: "Perfect DOS VGA 437";
+  font-size: 1rem; /* 15px */
   color: rgba(255,255,255,.6);
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: 1.2rem; /* 14px */
   }
 }
 
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #6DD;
+  color: rgb(102, 109, 109);
 }
 .sidebar-item {
   padding: 1rem;
@@ -387,7 +406,7 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
   background-color: #191E1E;
-  border-color: #6DD;
+  border-color: rgb(102, 109, 109);
 }
 
 @media (min-width: 48em) {
@@ -413,7 +432,7 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
-  color: #6DD;
+  color: rgb(102, 109, 109);
   background-color: #000;
   border-radius: 4px;
   cursor: pointer;
@@ -434,7 +453,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #6DD;
+  color: rgb(102, 109, 109);
   background-color: #505050;
 }
 
@@ -513,7 +532,7 @@ a.sidebar-nav-item:focus {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #000;
-  background-color: #6DD;
+  background-color: rgb(102, 109, 109);
 }
 
 /*
@@ -532,7 +551,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #25BFBF;
+  color: rgb(102, 109, 109);
 }
 .page-title,
 .post-title {
@@ -556,8 +575,8 @@ a.sidebar-nav-item:focus {
 .related {
   /*padding-top: 2rem;*/
   /*padding-bottom: 2rem;*/
-  border-top: 1px solid #6DD;
-  /*border-bottom: 1px solid #6DD;*/
+  border-top: 1px solid rgb(102, 109, 109);
+  /*border-bottom: 1px solid rgb(102, 109, 109);*/
 }
 .related-posts {
   padding-left: 0;
@@ -591,7 +610,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: Terminal;
+  font-family: "Perfect DOS VGA 437";
   color: #ccc;
   text-align: center;
 }
@@ -600,7 +619,7 @@ a.sidebar-nav-item:focus {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #6DD;
+  border: 1px solid rgb(102, 109, 109);
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -636,7 +655,7 @@ a.pagination-item:hover {
  *
  * Default dark theme of Naringu is here (Will Update)
 
-/* #6DD */
+/* rgb(102, 109, 109) */
 
 .theme-6dd .sidebar,
 .theme-6dd .sidebar-toggle:active,
@@ -646,7 +665,7 @@ a.pagination-item:hover {
 .theme-6dd .container a,
 .theme-6dd .sidebar-toggle,
 .theme-6dd .related-posts li a:hover {
-  color: #6DD;
+  color: rgb(102, 109, 109);
 }
 
 
@@ -684,5 +703,5 @@ a.pagination-item:hover {
   padding-top: 6px;
   padding-bottom: 6px; 
   font-size: 60%;
-  border-top: 1px solid #6DD;
+  border-top: 1px solid rgb(102, 109, 109);
 }

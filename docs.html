@@ -1,10 +1,20 @@
 ---
 layout: page
-title: Eventos
-permalink: /eventos/
+title: Docs
+---
+
+{% for item in site.docs %}
+<h2>{{ item.title }}</h2>
+<p>{{ item.description }}</p>
+<p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
+
+
+<!--
+
+  permalink: /eventos/
 tags: [Categories]
 description: "Proximos eventos."
----
 
 
 <ul class="tag-box inline">
@@ -18,7 +28,9 @@ description: "Proximos eventos."
 {% endfor %}
 {% else %}
 {% for tag in tags_list %}
+{% if tag == 'evento' or tag == 'meetup' %}
 <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+{% endif %}
 {% endfor %}
 
 {% endif %}
@@ -27,16 +39,24 @@ description: "Proximos eventos."
 </ul>
 
 
-<!--
+
+{% for post in site.categories[page.category] %}
+<a href="{{ post.url | absolute_url }}">
+  {{ post.title }}
+</a>
+{% endfor %}
+
 {% for tag in site.categories %}
-{% if post.evento == true %}
+{% if tag == 'evento' or tag == 'meetup' %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
 <ul class="post-list">
 {% assign pages_list = tag[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
-{% if group == null or group == post.group %}
+{% if group == null or group == post.group%}
+
 <li><a href="{{ post.url }}">{{ post.title }}<span class="entry-date"> - <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></a></li>
+
 {% endif %}
 {% endif %}
 {% endfor %}

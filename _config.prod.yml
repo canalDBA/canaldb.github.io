@@ -37,6 +37,15 @@ disqus:             canaldba
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 # Thanks Rizky!
 theme:
-  creator:			Rizky Ariestiyansyah
-  codename:			Naringu
-  link:          https://github.com/ariestiyansyah/naringu
+#  creator:			Rizky Ariestiyansyah
+#  codename:			Naringu
+#  link:          https://github.com/ariestiyansyah/naringu
+
+assets:
+   sources:
+     - _assets/fonts
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path

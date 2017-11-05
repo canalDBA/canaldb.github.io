@@ -40,3 +40,12 @@ theme:
 #  creator:			Rizky Ariestiyansyah
 #  codename:			Naringu
 #  link:          https://github.com/ariestiyansyah/naringu
+
+assets:
+  sources:
+    - _assets/fonts
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:name
