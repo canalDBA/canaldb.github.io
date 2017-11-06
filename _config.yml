@@ -13,7 +13,7 @@ permalink:           pretty
 # Setup
 title:               CanalDBA
 tagline:             ' A puro commit.'
-description:         'Comunidad de Data Nerds del Rio de la Plata'
+description:         'Comunidad de Data Nerds del Río de la Plata'
 url:                 http://canaldba.com/
 baseurl:             http://canaldba.com/
 paginate:            7

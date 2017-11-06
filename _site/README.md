@@ -28,13 +28,15 @@ Para producción usar el `_config.yml` o sobreescribir con `_config.prod.yml`
 (baseurl es distinto)
 
 
-
-
 ## TODO
 
 ## Slack
 
 Para solicitar el link, tiene que contactarnos por tuiter o mail.
+
+## IRC
+
+Soon.
 
 ## Twiter
 
@@ -42,7 +44,9 @@ La cuenta la maneja el que quiere, pedir creds a Iván o Emanuel.
 
 ## Disqus
 
-Falta setear discuss
+Falta setear disqus.
+
+
 
 ### Template author
 **Rizky Ariestiyansyah**

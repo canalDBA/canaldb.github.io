@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Percona Pythian Event" 
+title: "Evento Percona/Pythian" 
 categories:
 - evento
 ---
