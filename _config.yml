@@ -15,7 +15,7 @@ title:               CanalDBA
 tagline:             ' A puro commit.'
 description:         'Comunidad de Data Nerds del Rio de la Plata'
 url:                 http://canaldba.com/
-baseurl:             /
+baseurl:             http://canaldba.com/
 paginate:            7
 logo:                head.png
 biglogo:             biglogo.jpg
@@ -49,3 +49,6 @@ collections:
   docs:
     output: true
     permalink: /docs/:path
+  sandbox:
+    output: true
+    permalink: /ssandbox/:path

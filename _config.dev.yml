@@ -12,8 +12,8 @@ permalink:           pretty
 
 # Setup
 title:               CanalDBA
-tagline:             '  Cero humo, a puro commit.'
-description:         'Comunidad de Data Nerds del Río de la Plata'
+tagline:             ' A puro commit.'
+description:         'Comunidad de Data Nerds del Rio de la Plata'
 url:                 http://canaldba.com/
 baseurl:             /
 paginate:            7
@@ -49,3 +49,6 @@ collections:
   docs:
     output: true
     permalink: /docs/:path
+  sandbox:
+    output: true
+    permalink: /ssandbox/:path

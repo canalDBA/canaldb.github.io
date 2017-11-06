@@ -4,7 +4,7 @@ author: CanalDBA
 layout: page
 ---
 
-Aqui encontraras los recursos necesarios para adentrarte en las tecnologias
+Aqui encontrarás los recursos necesarios para adentrarte en las tecnologías
 que esta comunidad maneja (WIP).
 
 
