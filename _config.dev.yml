@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 
 # Gems (for Jekyll 3.0)
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 #
@@ -12,8 +12,8 @@ permalink:           pretty
 
 # Setup
 title:               CanalDBA
-tagline:             '  Cero humo, a puro commit.'
-description:         'Comunidad de Data Nerds del Río de la Plata'
+tagline:             ' A puro commit.'
+description:         'Comunidad de Data Nerds del Rio de la Plata'
 url:                 http://canaldba.com/
 baseurl:             /
 paginate:            7
@@ -37,6 +37,18 @@ disqus:             canaldba
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 # Thanks Rizky!
 theme:
-  creator:			Rizky Ariestiyansyah
-  codename:			Naringu
-  link:          https://github.com/ariestiyansyah/naringu
+#  creator:			Rizky Ariestiyansyah
+#  codename:			Naringu
+#  link:          https://github.com/ariestiyansyah/naringu
+
+assets:
+   sources:
+     - _assets/fonts
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path
+  sandbox:
+    output: true
+    permalink: /ssandbox/:path

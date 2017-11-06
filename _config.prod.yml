@@ -1,0 +1,54 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+# Gems (for Jekyll 3.0)
+plugins: [jekyll-paginate]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               CanalDBA
+tagline:             ' A puro commit.'
+description:         'Comunidad de Data Nerds del Rio de la Plata'
+url:                 http://canaldba.com/
+baseurl:             http://canaldba.com/
+paginate:            7
+logo:                head.png
+biglogo:             biglogo.jpg
+
+# About/contact
+author:
+  name:              CanalDBA
+  url:               https://twitter.com/canaldba
+  email:             canaldba.social@gmail.com
+
+# Custom vars
+version:             2.0
+
+# Social Media
+github:				http://github.com/canaldba
+twitter:			http://twitter.com/canaldba
+disqus:             canaldba
+
+# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
+# Thanks Rizky!
+theme:
+#  creator:			Rizky Ariestiyansyah
+#  codename:			Naringu
+#  link:          https://github.com/ariestiyansyah/naringu
+
+assets:
+   sources:
+     - _assets/fonts
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path
+  sandbox:
+    output: true
+    permalink: /ssandbox/:path
