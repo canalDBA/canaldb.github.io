@@ -58,6 +58,8 @@ Escribilo en Markdown, seguí el formato en [posts](https://raw.githubuserconten
 
 Para solicitar el link, tiene que contactarnos por tuiter o mail.
 
+*Slack emoji directory*: https://slackmojis.com/
+
 ## IRC
 
 Soon.
