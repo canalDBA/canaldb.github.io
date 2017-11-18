@@ -1,0 +1,35 @@
+- name: aleatorio
+  url: slack://channel?id=C7D88D2NN&team=T7CJH7Y9W
+
+- name: analytics
+  url: slack://channel?id=C7DDFTAMT&team=T7CJH7Y9W
+
+- name: anuncios
+  url: slack://channel?id=C7DCARAF7&team=T7CJH7Y9W
+
+- name: cualquierbase
+  url: slack://channel?id=C83BBD6NB&team=T7CJH7Y9W
+
+- name: dataops
+  url: slack://channel?id=C7EKZGTN0&team=T7CJH7Y9W
+
+- name: eventos
+  url: slack://channel?id=C7EBJ0GK1&team=T7CJH7Y9W
+
+- name: general
+  url: slack://channel?id=C7DFLPPU5&team=T7CJH7Y9W
+
+- name: intro
+  url: slack://channel?id=C7CKT5PC0&team=T7CJH7Y9W
+
+- name: jobs
+  url: slack://channel?id=C7DKH745T&team=T7CJH7Y9W
+
+- name: mysql
+  url: slack://channel?id=C7E5LR094&team=T7CJH7Y9W
+
+- name: nerd
+  url: slack://channel?id=C7DCJFBUY&team=T7CJH7Y9W
+
+- name: nosql
+  url: slack://channel?id=C7D9C83K4&team=T7CJH7Y9W

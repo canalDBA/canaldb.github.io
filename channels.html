@@ -1,0 +1,15 @@
+---
+title: Canales de Slack
+layout: page
+description: Lista de canales que encontrarás en nuestro Slack
+---
+
+Para abrir el canal directamente desde esta página, tenés que estar registrado en nuestro espacio de trabajo y tener la aplicación de slack instalada
+
+<ul>
+  {% for channel in site.data.channels %}
+  <li>
+    <a href={{ channel.url }}>{{ channel.name }}</a>
+  </li>
+  {% endfor%}
+</ul>
