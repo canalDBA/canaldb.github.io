@@ -32,3 +32,11 @@ layout: page
 
 [PgAnalyze](https://pganalyze.com/)
 [CloudBackup de BinLogic soporta Postgres](https://www.binlogic.io/#features)
+
+
+
+[comment]: <> (Quienes editen, agreguensé en la lista)
+
+> Referentes:
+>
+> Emanuel Calvo
