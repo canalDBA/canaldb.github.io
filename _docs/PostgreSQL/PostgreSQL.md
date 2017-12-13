@@ -2,6 +2,7 @@
 title: PostgreSQL
 author: CanalDBA
 layout: page
+description: Base de Datos Relacional
 ---
 
 ## Recursos oficiales
