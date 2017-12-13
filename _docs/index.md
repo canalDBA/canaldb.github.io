@@ -10,8 +10,10 @@ que esta comunidad maneja (WIP).
 
 {% for item in site.docs %}
 {% if item.title != "Docs" %}
+<!--
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+-->  
+  <p><a href="{{ item.url }}">{{ item.title }} ({{item.description}})</a></p>
 {% endif %}
 {% endfor %}

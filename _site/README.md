@@ -7,7 +7,7 @@ Este sitio se basó en el template _Naringu_, pero potencialmente no está queda
 
 ```
 sudo gem install jekyll
-sudo gem install bower
+sudo gem install bower #deprecated
 ```
 
 Desde el home de la página:
@@ -58,7 +58,11 @@ Escribilo en Markdown, seguí el formato en [posts](https://raw.githubuserconten
 
 Para solicitar el link, tiene que contactarnos por tuiter o mail.
 
+### Emojis
+
 *Slack emoji directory*: https://slackmojis.com/
+*Cult of the Party Parrot*: http://cultofthepartyparrot.com/ 
+
 
 ## IRC
 
@@ -68,9 +72,6 @@ Soon.
 
 La cuenta la maneja el que quiere, pedir creds a Iván o Emanuel.
 
-## Disqus
-
-Falta setear disqus.
 
 
 
