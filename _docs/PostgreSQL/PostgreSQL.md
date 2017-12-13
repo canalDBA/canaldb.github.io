@@ -34,9 +34,10 @@ layout: page
 [CloudBackup de BinLogic soporta Postgres](https://www.binlogic.io/#features)
 
 
-
 [comment]: <> (Quienes editen, agreguensé en la lista)
 
-> Referentes:
->
+
+## Referentes en la comunidad
+
 > Emanuel Calvo
+
