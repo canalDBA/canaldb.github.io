@@ -4,9 +4,31 @@ author: CanalDBA
 layout: page
 ---
 
-## PostgreSQL
+## Recursos oficiales
 
-## Recursos
+[Sitio principal](www.postgresql.org)
 
-## Herramientas
 
+## Herramientas adicionales / third party
+
+### Backups
+
+[wal-e](https://github.com/wal-e/wal-e)
+
+### HA
+
+[patroni](https://github.com/zalando/patroni)
+
+### Replicación
+
+[repmgr](https://github.com/2ndQuadrant/repmgr)
+
+### Monitorización
+
+[collectd](https://collectd.org/wiki/index.php/Plugin:PostgreSQL)
+
+
+## Propietary third parties
+
+[PgAnalyze](https://pganalyze.com/)
+[CloudBackup de BinLogic soporta Postgres](https://www.binlogic.io/#features)
