@@ -4,13 +4,27 @@
  <title>CanalDBA</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-12-13T16:26:12-03:00</updated>
+ <updated>2018-08-30T04:47:51-03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>CanalDBA</name>
    <email>canaldba.social@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Emanuel Calvo e Iván Groenewold en Nerdear.la!</title>
+   <link href="http://localhost:4000/evento/2018/08/30/nerdearla/"/>
+   <updated>2018-08-30T00:00:00-03:00</updated>
+   <id>http://localhost:4000/evento/2018/08/30/nerdearla</id>
+   <content type="html">&lt;h2 id=&quot;descripción&quot;&gt;Descripción&lt;/h2&gt;
+
+&lt;p&gt;Centro Cultural San Martín, #Syarmy.&lt;/p&gt;
+
+&lt;p&gt;Más info en: &lt;a href=&quot;https://nerdear.la/#speakers&quot;&gt;Nerdear.la&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Evento Percona/Pythian</title>
