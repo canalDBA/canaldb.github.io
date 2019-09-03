@@ -33,7 +33,8 @@ version:             2.0
 github:				http://github.com/canaldba
 twitter:			http://twitter.com/canaldba
 disqus:             canal-dba
-
+youtube:            https://www.youtube.com/channel/UC0S-8mapRuelUNQxDPi7vbw
+patreon:            https://www.patreon.com/canaldba         
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 theme: 
 #  Theme: value of 'theme' in config should be String to use gem-based themes, but got Hash
