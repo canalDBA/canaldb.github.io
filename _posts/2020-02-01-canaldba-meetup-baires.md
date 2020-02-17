@@ -10,7 +10,7 @@ categories:
 
 Edificio Hit Ugarte (Ugarte 2110)
 
-Inscripción (por el espacio  y por las pizzas y birra). 
+Inscripción (por el espacio  y por las pizzas y birra), [aquí](https://forms.gle/oqMA9UyndEVwbX7K9). O, si sos usuario de Meetup, [tenemos un grupo aquí](https://www.meetup.com/CanalDBA-Meetup-Group/) 
 
 
 ## Charlas
