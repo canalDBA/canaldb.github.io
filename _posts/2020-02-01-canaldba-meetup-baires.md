@@ -29,7 +29,7 @@ Slot Número 2, lightning talks.
 
 Luego morfi y birras sponsoreadas OnGres. Se admiten más sponsors.
 
-
+Tendremos stream a través de nuestro [canal de YouTube](https://www.youtube.com/channel/UC0S-8mapRuelUNQxDPi7vbw/featured).
 
 
 
