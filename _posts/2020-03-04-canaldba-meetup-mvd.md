@@ -16,7 +16,7 @@ No te olvides inscribirte (Por la comida y bebida) en [Meetup](https://www.meetu
 ## Charlas
 
 Infraestructura de PedidosYa (Equipo de Data de PedidosYa)
-Gotchas en la replicación con postgres (Martin Marques, nos visita desde Buenos Aires)
+MVCC+VACUUM en Postgres (Martin Marques, nos visita desde Buenos Aires, 2ndQuadrant)
 Memory Performance (Marcos Albe, Percona)
 
 Luego habrá espacio para lighting talks.
