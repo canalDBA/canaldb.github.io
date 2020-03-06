@@ -15,9 +15,9 @@ No te olvides inscribirte (Por la comida y bebida) en [Meetup](https://www.meetu
 
 ## Charlas
 
-Infraestructura de PedidosYa (Equipo de Data de PedidosYa)
-MVCC+VACUUM en Postgres (Martin Marques, nos visita desde Buenos Aires, 2ndQuadrant)
-Memory Performance (Marcos Albe, Percona)
+* Infraestructura de PedidosYa (Equipo de Data de PedidosYa)
+* MVCC+VACUUM en Postgres (Martin Marques, 2ndQuadrant)
+* Memory Performance (Marcos Albe, Percona)
 
 Luego habrá espacio para lighting talks.
 
