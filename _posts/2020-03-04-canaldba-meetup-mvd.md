@@ -8,8 +8,7 @@ Con motivo de prevención del coronavirus, debemos postergar la realización del
 
 Pero que no decaiga, lo más lindo de la comunidad de CanalDBa pasa en nuestro canal de Slack
 
-Unite usando este link o bien mandame un mail a mateo@canaldba.com
-https://join.slack.com/t/canaldba/shared_invite/zt-4hzvukwn-IUfhS06dLXFPl3ohcCfKeQ
+Unite usando este [link](https://join.slack.com/t/canaldba/shared_invite/zt-4hzvukwn-IUfhS06dLXFPl3ohcCfKeQ) o bien mandame un mail a mateo@canaldba.com
 ---
 
 ## Descripción
