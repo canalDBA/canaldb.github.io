@@ -1,8 +1,15 @@
 ---
 layout: post
-title: "¡Nos juntamos en marzo del 2020 en Montevideo!" 
+title: "[postergado]¡Nos juntamos en marzo del 2020 en Montevideo!" 
 categories:
 - evento
+---
+Con motivo de prevención del coronavirus, debemos postergar la realización del evento.
+
+Pero que no decaiga, lo más lindo de la comunidad de CanalDBa pasa en nuestro canal de Slack
+
+Unite usando este link o bien mandame un mail a mateo@canaldba.com
+https://join.slack.com/t/canaldba/shared_invite/zt-4hzvukwn-IUfhS06dLXFPl3ohcCfKeQ
 ---
 
 ## Descripción
